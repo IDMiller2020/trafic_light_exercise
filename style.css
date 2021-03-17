@@ -1,0 +1,45 @@
+.pole {
+  background-color: black;
+  height: 9rem;
+  width: 5rem;
+  margin: auto;
+}
+
+  .box {
+    background-color: black;
+    height: 35rem;
+    width: 15rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .light {
+    background-image: url(./Black-Dots-background-PNG-715x715.png);
+    background-size: cover;
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 50%;
+
+  }
+
+  .red {
+    background-color: darkred;
+  
+  }
+  .red:hover {
+    background-color: red;
+    box-shadow: 0 0 1.5em 1em pink;
+    cursor: pointer;
+  }
+
+  .yellow {
+    background-color: yellow;
+
+  }
+
+  .green {
+    background-color: green;
+  }
